@@ -1,0 +1,13 @@
+package com.stack;
+
+public class StackMain {
+
+	public static void main(String[] args) {
+
+		StackCreate create=new StackCreate(5);
+		  create.push(11);
+		  System.out.println(create.peek());
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.array;
+
+public class CountOfChar {
+
+	
+	public static void main(String[] args) {
+		String str="I am an Indian";
+		
+         char[]arr=str.toCharArray();
+        int count;
+         
+         for(int i=0;i<str.length();i++) {
+        	 count=1;
+        	 for(int j=i+1;j<str.length();i++) {
+        		 if(arr[i]==arr[j]) {
+        			 count++;
+        		 }
+        	 }
+        	 System.out.println(arr[i]+"="+count);
+         }
+	 
+	
+	
+	} 
+	
+}

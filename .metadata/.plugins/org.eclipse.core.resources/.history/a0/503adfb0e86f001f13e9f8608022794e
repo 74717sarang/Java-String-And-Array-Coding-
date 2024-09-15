@@ -1,0 +1,52 @@
+package com.stack;
+
+public class StackCreate {
+  
+	int top;
+	int size;
+	int []arr;
+	public StackCreate(int size) {
+		top=-1;
+		this.size=size;
+	}
+	
+	public boolean isempty() {
+		if(top==-1) {
+			return true;
+			
+		}
+		return false;
+	}
+	
+	public boolean isfull() {
+		if(top==size-1) {
+			return true;
+			
+		}
+		return false;
+	}
+	
+	public void push(int num) {
+		if(isfull()) {
+			System.out.println("Stack is full...");
+			return;
+		}
+		arr[top]=num;
+		 top++;
+		 System.out.println("Done...");
+	}
+	public int pop() {
+		if(isempty()) {
+			return 00;
+		}
+		return arr[top--];
+		
+	}
+	public int peek() {
+		return arr[top];
+	}
+	
+	
+	
+	
+}

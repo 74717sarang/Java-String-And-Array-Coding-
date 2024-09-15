@@ -1,0 +1,10 @@
+package com.star;
+
+public class FloydS_Triangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

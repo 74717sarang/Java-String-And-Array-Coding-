@@ -1,0 +1,21 @@
+package co.string;
+
+public class BasicTest {
+
+	public static void main(String[] args) {
+
+		String a="hello";
+		String b="java";
+		//System.out.println(a.charAt(0)-b.charAt(0));
+		
+		//char n=a.charAt(0);
+		 String s= a.substring(0, 1).toUpperCase()+a.substring(1);
+		 System.out.println(s);
+	
+		
+		
+		System.out.println();
+		
+	}
+
+}

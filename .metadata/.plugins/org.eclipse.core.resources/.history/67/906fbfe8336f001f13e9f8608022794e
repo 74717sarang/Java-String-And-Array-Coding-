@@ -1,0 +1,15 @@
+package co.string;
+
+public class NewString {
+public static void main(String[] args) {
+	
+	String s="He is a very very @ good boy, isn't he?";
+    String []str=s.split(" [A-Za-z !,?._'@]+ ");
+    String []st=s.split("[a-zA-Z\\\\s!?,._'@]+");
+    System.out.println("len::"+st.length);
+    int i;
+    for( i=0;i<str.length-1; i++);
+    System.out.println(str[i]);
+   
+}
+}

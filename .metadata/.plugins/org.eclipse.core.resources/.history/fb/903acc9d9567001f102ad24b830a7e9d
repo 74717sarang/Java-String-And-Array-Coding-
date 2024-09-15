@@ -1,0 +1,13 @@
+package co.string;
+
+public class SplitString {
+
+	
+	public static void main(String[] args) {
+		
+		String s="welcomejava";
+		String []str=s.split("[a-z]", 3);
+		System.out.println(str[0]);
+		
+	}
+}
