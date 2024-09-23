@@ -7,11 +7,11 @@ public class SubArrayMaxProduct {
 	public static void main(String[] args) {
 		int sub = 3;
 		int[] arr = new int[] { 4, 5, 6, 1, 2, 3, 7, 10 };
-		//this is also ok
+		// this is also ok
 		System.out.println(findmaxProduct(arr, sub));
-		//for any combination  max product
-		System.out.println("simple:"+find(arr,sub));
-		//below is best
+		// for any combination max product
+		System.out.println("simple:" + find(arr, sub));
+		// below is best
 		System.out.println("proper:" + correctway(arr, sub));
 
 	}
