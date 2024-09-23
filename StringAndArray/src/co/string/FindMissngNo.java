@@ -4,11 +4,11 @@ public class FindMissngNo {
 
 	public static void main(String[] args) {
 		
-		int[]number=new int[] {1,2,3,4,6,7};
+		int[]number=new int[] {1,2,3,4,6,7,8};
 		  
-		int l = number[number.length - 1];
-		System.out.println(l);
-		 int aTotal=(7*(7+1)/2);
+		int LNo = number[number.length - 1];
+		System.out.println(LNo);
+		 int aTotal=(LNo*(LNo+1)/2);
 		
 		int gtotal=0;
 		for(int i:number) {

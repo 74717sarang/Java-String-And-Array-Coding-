@@ -13,8 +13,15 @@ public class BasicTest {
 		 */
 		String str = "big black bug bit a big black dog";
 
-		System.out.println(changer(str));
-
+		//System.out.println(changer(str));
+		System.out.println("hii");
+		String s="";
+		for(int i=0;i<str.length();i++) {
+			
+		  System.out.println();
+		 
+		}
+         System.out.println(s);
 	}
 
 	public static String changer(String str) {
@@ -41,4 +48,7 @@ public class BasicTest {
 		return s1;
 
 	}
+	
+	
+	
 }

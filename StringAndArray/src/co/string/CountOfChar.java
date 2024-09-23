@@ -2,44 +2,28 @@ package co.string;
 
 public class CountOfChar {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        String str = "Wwel wel wel";
-        
-        int []count=new int[str.length()];
-        char[]arr=str.toCharArray();
-        
-        for(int i=0;i<str.length();i++) {
-        	count[i]=1;
-        	for(int j=i+1;j<str.length();j++) {
-        		if(arr[i]==arr[j]) {
-        			count[i]++;
-        			arr[j]='0';
-        		}
-        		
-        	}
-        	
-        }
-        for(int k=0;k<arr.length;k++) {
-        	if(arr[k]!='0') {
-        		System.out.println(arr[k]+" "+count[k]);
-        	}
-        }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+		String str = "Wwel wel wel";
+
+		int[] count = new int[str.length()];
+		char[] arr = str.toCharArray();
+		for (int i = 0
+				; i< arr.length ; i++) {
+			count[i] = 1;
+			for(int j=i+1;j<arr.length;j++) {
+				if (arr[i] == arr[j]) {
+					count[i]++;
+				arr[j] = '0';
+				}
+				}
+		}
+		for (int k = 0; k < arr.length; k++) {
+			if (arr[k] != '0' && arr[k] !=' ' ) {
+				System.out.println(arr[k] + " " + count[k]);
+			}
+		}
+
 //        int[] freq = new int[str.length()];
 //        char[] chars = str.toCharArray();
 //
@@ -59,5 +43,5 @@ public class CountOfChar {
 //            	System.out.println(chars[i] + " : " + freq[i]); 
 //            }
 //        }
-    }
+	}
 }

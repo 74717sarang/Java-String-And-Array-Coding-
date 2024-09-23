@@ -11,8 +11,8 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="package co.string;"/>
 			<item value="package com.array;"/>
+			<item value="package co.string;"/>
 		</list>
 		<list key="replacehistory">
 		</list>

@@ -1,0 +1,19 @@
+package com.array;
+
+public class CommanElement {
+
+	public static void main(String[] args) {
+		
+		int []arr1= {1,2,2,1};
+		int []arr2= {1,2};
+		
+		
+		
+		
+		
+		
+		
+	}  
+	
+	
+}
