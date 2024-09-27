@@ -28,9 +28,7 @@ public class CalenderBookShow {
 	}
 	
 	public static void main(String[] args) {
-		
-	
-
+	  
 	   CalenderBookShow myCalendar = new CalenderBookShow();
 	  boolean param_1 = myCalendar.book(10, 20); // returns true
 	  boolean param_2 = myCalendar.book(15, 25); // returns false
