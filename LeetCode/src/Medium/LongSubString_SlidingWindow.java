@@ -34,6 +34,7 @@ public class LongSubString_SlidingWindow {
 
 		String s = "abcabcbb";
 		System.out.println(lengthOfLongestSubstring(s));
+		System.out.println();
 
 	}
 
