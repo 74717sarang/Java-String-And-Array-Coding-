@@ -3,7 +3,7 @@ package com.basic;
 public class Factorial {
 
 	public static void main(StringAll[] args) {
-		int num = 5;
+		int num = 6;
 		
 		int t = 1;
 		//with while loop
