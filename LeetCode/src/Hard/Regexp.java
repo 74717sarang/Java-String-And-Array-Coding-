@@ -47,19 +47,16 @@ public class Regexp {
 
 		Regexp solution = new Regexp();
 
+		  //  Test cases 
+		System.out.println(solution.isMatch("aa", "a"));  //  Output: false 
+
+		System.out.println(solution.isMatch("aa", "a*")); // Output: true 
 		
-		/*
-		 * // // Test cases // System.out.println(solution.isMatch("aa", "a")); //
-		 * Output: false // System.out.println(solution.isMatch("aa", "a*")); // Output:
-		 * true // System.out.println(solution.isMatch("ab", ".*")); // Output: true
-		 */		 
+		System.out.println(solution.isMatch("ab", ".*")); // Output: true
+		 		 
 		
 		
-		String s="";
-		char ch='a';
-		s+=ch;
-		System.out.println(s);
-		
+	
 	}
 
 }
