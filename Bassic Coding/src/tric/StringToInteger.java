@@ -29,7 +29,6 @@ public class StringToInteger {
 		String str="-123";
 		System.out.printf("%d",convert(str));
 	  System.out.println();
-	  System.out.println(-1==-1);
 	}
 
 }
