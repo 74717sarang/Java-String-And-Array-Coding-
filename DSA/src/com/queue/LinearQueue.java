@@ -1,5 +1,6 @@
 package com.queue;
 
+import java.util.Iterator;
 
 // memory not reused in  linear Queue  
  //using Array
@@ -21,6 +22,9 @@ public class LinearQueue {
 			System.out.println("Queue is full ");
 		}
 		arr[++rear] = num;
+		if(front==-1) {
+			front=0; 
+		}
 		System.out.println("added in queue...");
 	}
 

@@ -2,11 +2,14 @@ package com.basic;
 
 public class StringToInteger {
 
-	public static void main(StringAll[] args) {
-        
-		String s="12345";
-		//System.out.println(3-'0'); 
-		System.out.println("int::"+converter(s));
+
+	private static int newconverter(String s) {
+          int num=0;
+          for(char ch:s.toCharArray()) {
+        	  num=num*10+(ch-'0');
+          }
+          
+		return num;
 	}
 
 	private static int converter(String s) {
@@ -19,8 +22,15 @@ public class StringToInteger {
 		
 		return ans;
 	}
-
 	
 	
 	
+	
+	public static void main(StringAll[] args) {
+        
+		String s="12345";
+		//System.out.println(3-'0'); 
+		System.out.println("int::"+converter(s));
+		System.out.println("Int::"+newconverter(s));
+	}
 }

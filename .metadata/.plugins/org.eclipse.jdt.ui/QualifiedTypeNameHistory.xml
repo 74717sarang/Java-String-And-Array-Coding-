@@ -24,9 +24,10 @@
     <fullyQualifiedTypeName name="Daily.CalenderBookShow"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.CharSequence"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.Sides"/>
     <fullyQualifiedTypeName name="com.queue.LinearQueue"/>
+    <fullyQualifiedTypeName name="Daily.DivideIntervalGroup"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>

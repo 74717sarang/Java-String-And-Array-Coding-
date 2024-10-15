@@ -40,7 +40,7 @@ public class DivideIntervalGroup {
 //        	 System.out.println();
 //         }
 	
-        
+        // 2-D Array print
 //		for(int [] i:intervals) {
 //			for(int e:i) {
 //				System.out.println(e);
