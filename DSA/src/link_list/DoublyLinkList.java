@@ -124,6 +124,8 @@ public class DoublyLinkList {
 		
 		System.out.println(doublyLinkList.deleteByValue(3)); 
 		System.out.println("Afet delete  Value 3...");
+		
+		
 		doublyLinkList.display();
 	}
 
