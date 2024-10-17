@@ -2,6 +2,8 @@ package link_list;
 
 public class SinglyLinkList {
 
+	//Singly Linear LinkList
+	
 	private Node head;
 
 	public SinglyLinkList() {
@@ -69,43 +71,39 @@ public class SinglyLinkList {
 		temp.setNext(null);
 	}
 
-	public void addPos(int pos,int data) {
-		Node newnode=new Node(data);
-		if(head ==null) {
-			head=newnode;
+	public void addPos(int pos, int data) {
+		Node newnode = new Node(data);
+		if (head == null) {
+			head = newnode;
 		}
-		Node temp=head;
-		if(pos==1) {
+		Node temp = head;
+		if (pos == 1) {
 			newnode.setNext(temp.getNext());
-			head=newnode; 
+			head = newnode;
 		}
-	    for(int i=1;i<pos-1;i++) {
-	    	temp=temp.getNext();
-	    }
-	    newnode.setNext(temp.getNext());
-	     temp.setNext(newnode);
+		for (int i = 1; i < pos - 1; i++) {
+			temp = temp.getNext();
+		}
+		newnode.setNext(temp.getNext());
+		temp.setNext(newnode);
 	}
-	
-	
+
 	public void deletePos(int pos) {
 
 		if (head == null) {
 			System.out.println("Head is empty..");
 		}
-		
-		if(pos==1) {
-			head=head.getNext();
+
+		if (pos == 1) {
+			head = head.getNext();
 		}
-		Node curr=head;
-		for(int i=1;i<pos-1;i++) {
-			curr=curr.getNext();
+		Node curr = head;
+		for (int i = 1; i < pos - 1; i++) {
+			curr = curr.getNext();
 		}
-	    curr.setNext(curr.getNext().getNext()); 	
+		curr.setNext(curr.getNext().getNext());
 	}
-	
-	
-	
-	
+
 	public static void main(String[] args) {
 
 		SinglyLinkList s = new SinglyLinkList();
@@ -122,23 +120,23 @@ public class SinglyLinkList {
 		s.addFirst(11);
 		System.out.println("After add first Node...");
 		s.display();
-		
+
 		System.out.println("After Delete first Node...");
 		s.deleteFirst();
 		s.display();
-		
+
 		System.out.println("After Delete Last Node...");
 		s.deleteLast();
 		s.display();
-		
+
 		System.out.println("After Add between Pos Node...");
-		s.addPos(3,50);
+		s.addPos(3, 50);
 		s.display();
-		
+
 		System.out.println("After delete between Pos Node...");
 		s.deletePos(3);
 		s.display();
-		
+
 	}
 
 }

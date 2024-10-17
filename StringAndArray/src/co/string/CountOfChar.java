@@ -1,25 +1,47 @@
 package co.string;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class CountOfChar {
 
 	public static void main(String[] args) {
 
 		String str = "Wwel wel wel";
 
+		// this most efficient way for large input     O(n)
+		
+		System.out.println("With Map Using ");
+		Map<Character, Integer> map = new HashMap<>();
+		for (int i = 0; i < str.length(); i++) {
+			Character ch = str.charAt(i);
+			if (map.containsKey(ch)) {
+				int co = map.get(ch);
+				map.put(ch, ++co);
+			} else {
+				map.put(ch, 1);
+			}
+		}
+		map.forEach((k, v) -> System.out.println("Character: " + k + ", Count: " + v));
+
+		
+		
+		//using normal for loop     O(n^2)
+		
+		
 		int[] count = new int[str.length()];
 		char[] arr = str.toCharArray();
-		for (int i = 0
-				; i< arr.length ; i++) {
+		for (int i = 0; i < arr.length; i++) {
 			count[i] = 1;
-			for(int j=i+1;j<arr.length;j++) {
+			for (int j = i + 1; j < arr.length; j++) {
 				if (arr[i] == arr[j]) {
 					count[i]++;
-				arr[j] = '0';
+					arr[j] = '0';
 				}
-				}
+			}
 		}
 		for (int k = 0; k < arr.length; k++) {
-			if (arr[k] != '0' && arr[k] !=' ' ) {
+			if (arr[k] != '0' && arr[k] != ' ') {
 				System.out.println(arr[k] + " " + count[k]);
 			}
 		}
@@ -43,5 +65,7 @@ public class CountOfChar {
 //            	System.out.println(chars[i] + " : " + freq[i]); 
 //            }
 //        }
+
 	}
+
 }
