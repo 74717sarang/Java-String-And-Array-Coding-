@@ -10,11 +10,16 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="prevNode"/>
 		<list key="findhistory">
+			<item value="prev"/>
+			<item value="prevNode"/>
 			<item value="package com.array;"/>
 			<item value="package co.string;"/>
 		</list>
 		<list key="replacehistory">
+			<item value="prevNode"/>
+			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
