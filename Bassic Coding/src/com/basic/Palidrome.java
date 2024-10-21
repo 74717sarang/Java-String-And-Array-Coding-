@@ -1,9 +1,23 @@
 package com.basic;
 
 public class Palidrome {
+	// fast way to find palidrome for String format
+	// because it check only half and first to last parallel
+	public static boolean find() {
+		String abc="123321";
+		int l=abc.length();
+		for(int i=0;i<l/2;i++ ) {
+			if(abc.charAt(i)==abc.charAt(--l)) {
+				return false;
+			}
+		}
+		return true; 
+		}
+	
 	public static void main(String[] args)  {
-      /*
-       * best optimize way
+      System.out.println(find());
+		/*
+       * best optimize way for Int format
 		int no=123321;
 		int rev=0,rem,num=no;
 		while(num!=0) {
@@ -47,15 +61,16 @@ public class Palidrome {
 		
 		/*
 		 
-		String newS=new StringBuilder(Integer.toString(number)).reverse().toString();
-		String ss=Integer.toString(number);
-		if(ss.equals(newS))
-		{System.out.println("String is palidrome..");
-		}
+//		String newS=new StringBuilder(Integer.toString(number)).reverse().toString();
+//		String ss=Integer.toString(number);
+//		if(ss.equals(newS))
+//		{System.out.println("String is palidrome..");
+//		}
 		else {
 			System.out.println("String is  Not palidrome");
 		
 		}
 		*/
+		
 	}
 }

@@ -15,8 +15,8 @@ public class CheckPositiveOrNegative {
 		if(num==0)
 			return "no is zero";
 	String check=num>0?"no is +ve" :"no is -ve";	
-		System.out.println(check);
-      return "";
+		//System.out.println(check);
+      return check;
 	}
 
 	public static void main(String[] args) {
