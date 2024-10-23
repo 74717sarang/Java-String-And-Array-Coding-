@@ -7,7 +7,11 @@ public class BinarySearchTree {
 //	Efficient searching, insertion, and deletion (O(log n) time complexity).
 
 	Node root;
-
+    public BinarySearchTree() {
+    	root=null;
+    }
+	
+	
 	private void insert(int data) {
 		root = insetrtRec(data, root);
 
@@ -76,6 +80,21 @@ public class BinarySearchTree {
 		return root;
 	}
 
+
+	private boolean serach(Node root, int i) {
+        if(root==null) {
+        	return false;
+        	
+        }
+		if(root.data==i) {
+			return true
+					;
+		}
+		
+		return i < root.data ? serach(root.left, i) :serach(root.right, i) ;
+	}
+	
+	
 	
 	
 	
@@ -93,6 +112,13 @@ public class BinarySearchTree {
 		tree.display_inOrder();
 		tree.display_preOrder();
 		tree.display_postOrder();
+		
+		boolean tag=  tree.serach(tree.root,15);
+		System.out.println();
+		System.out.println("value is ::"+tag);
+		
 	}
+
+
 
 }
