@@ -1,7 +1,7 @@
-package Medium;
+package Daily;
 
-public class Permutation {
-      
+public class RemoveSubFolder {
+
 	
 	
 	public static void main(String[] args) {

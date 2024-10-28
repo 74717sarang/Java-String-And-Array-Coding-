@@ -33,4 +33,10 @@
     <fullyQualifiedTypeName name="org.w3c.dom.ls.LSInput"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="Daily.SplitStringUniqueSubString"/>
+    <fullyQualifiedTypeName name="java.awt.Robot"/>
+    <fullyQualifiedTypeName name="com.tree.BinarySearchTree"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="com.tree.BinaryTree"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="com.tree.Node"/>
 </qualifiedTypeNameHistroy>
