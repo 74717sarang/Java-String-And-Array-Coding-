@@ -31,7 +31,6 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="org.w3c.dom.ls.LSInput"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="Daily.SplitStringUniqueSubString"/>
     <fullyQualifiedTypeName name="java.awt.Robot"/>
     <fullyQualifiedTypeName name="com.tree.BinarySearchTree"/>
@@ -39,4 +38,6 @@
     <fullyQualifiedTypeName name="com.tree.BinaryTree"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="com.tree.Node"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="javax.imageio.spi.IIOServiceProvider"/>
 </qualifiedTypeNameHistroy>
