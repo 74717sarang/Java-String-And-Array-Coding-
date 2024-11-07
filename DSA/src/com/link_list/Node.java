@@ -1,4 +1,4 @@
-package link_list;
+package com.link_list;
 
 public class Node {
     // Doubly Linear LinkList

@@ -1,10 +1,10 @@
-package link_list;
+package com.link_list;
 
-public class SinglyCircularLinkList {
+public class DoublyCircularLinkList {
 
 	Node head;
 
-	public SinglyCircularLinkList() {
+	public  DoublyCircularLinkList() {
 		this.head = null;
 	}
 
@@ -12,15 +12,17 @@ public class SinglyCircularLinkList {
 		Node newNode = new Node(data);
 		if (head == null) {
 			head = newNode;
-			head.setNext(head); 
+			head.setNext(head);
 		}
 		Node temp = head;
 		// last node not null point to head
 		while (temp.getNext() != head) {
 			temp = temp.getNext();
 		}
-	     temp.setNext(newNode);
-	     newNode.setNext(head);
+		newNode.setPrev(temp);
+		newNode.setNext(head);
+		// head=newNode; for reverse print
+		temp.setNext(newNode);
 		System.out.println("Done..." + data);
 	}
 
@@ -58,6 +60,7 @@ public class SinglyCircularLinkList {
 		Node nextNode = currentNode.getNext().getNext();
 		if (nextNode != head) {
 			currentNode.setNext(nextNode);
+			nextNode.setPrev(currentNode);
 			return d;
 		}
 		return -1;
@@ -84,14 +87,35 @@ public class SinglyCircularLinkList {
 		 Node nextNode = prev.getNext(); // Save the next node
 		 prev.setNext(newNode);
 	    newNode.setNext(nextNode);
+//	    prev.getNext().setPrev(newNode);
+		
+		
+		
 	}
 	
 	
+	public boolean deleteByValue(int val) {
+		if(head==null) {
+			return false;
+		}
+		if(head.getData()==val) {
+			head=head.getNext();
+		}
+		
+		Node temp=head;
+		while(temp.getData()!=val) {
+			temp=temp.getNext();
+		}
+		Node nextNode=temp.getNext();
+		nextNode.setPrev(temp.getPrev());		
+		temp.getPrev().setNext(nextNode);
+		return true;
+	}
 	
 	public static void main(String[] args) {
-
-		SinglyCircularLinkList circularLinkList = new SinglyCircularLinkList();
-
+		
+		DoublyCircularLinkList circularLinkList=new DoublyCircularLinkList();
+		
 		circularLinkList.insert(1);
 		circularLinkList.insert(2);
 		circularLinkList.insert(3);
@@ -109,11 +133,15 @@ public class SinglyCircularLinkList {
 		System.out.println(circularLinkList.deleteByPosition(3));
 		System.out.println("Delete After pos 3");
 		circularLinkList.display();
-//
+
 		
 		circularLinkList.insertPosition(10,2);
 		System.out.println("Add After pos 2");
 		circularLinkList.display();
+		
+		
+		circularLinkList.deleteByValue(4);
+		System.out.println("Delete After deleteby Value 4");
+		circularLinkList.display();
 	}
-
 }
