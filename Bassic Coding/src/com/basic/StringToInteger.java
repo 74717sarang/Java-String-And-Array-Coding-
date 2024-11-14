@@ -26,10 +26,10 @@ public class StringToInteger {
 	
 	
 	
-	public static void main(StringAll[] args) {
+	public static void main(String[] args) {
         
 		String s="12345";
-		//System.out.println(3-'0'); 
+		System.out.println('3'-'0'); 
 		System.out.println("int::"+converter(s));
 		System.out.println("Int::"+newconverter(s));
 	}

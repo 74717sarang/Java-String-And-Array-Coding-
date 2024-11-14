@@ -40,5 +40,7 @@ public class Factorial {
 		}
 		return n * facto(n - 1);
 	}
+	
+
 
 }

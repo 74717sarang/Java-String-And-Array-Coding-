@@ -1,7 +1,5 @@
 package com.star;
 
-import java.util.Random;
-
 public class AllStarPattern {
 
 	public static void main(String[] args) {
@@ -82,6 +80,7 @@ public class AllStarPattern {
 		System.out.println();
 		System.out.println("#################");
 		System.out.println("combine two to make daimond");
+		// only change the i=row i>=0;i-- first for loop
 		System.out.println();
 
 		row = 5;
@@ -208,7 +207,9 @@ public class AllStarPattern {
 			   }
 			  System.out.println(); 
 		   }
-		   
+		
+		
+		
 		   
 		   
 	}

@@ -13,7 +13,8 @@ public class Tset2 {
 		int k=3;
 		String  s="welcometojava";
 		String []str=s.split("(?<=\\G...)");
-	          // str1+=s.substring(i, i+k)+" "; i=0;i<lenth-k;i++
+	          
+		// str1+=s.substring(i, i+k)+" "; i=0;i<lenth-k;i++
 	     String str1=" ";
 	     for(String f:str) {
 	    	 System.out.print(f+" " );

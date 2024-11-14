@@ -7,7 +7,7 @@ public class Palidrome {
 		String abc="123321";
 		int l=abc.length();
 		for(int i=0;i<l/2;i++ ) {
-			if(abc.charAt(i)==abc.charAt(--l)) {
+			if(abc.charAt(i)!=abc.charAt(--l)) {
 				return false;
 			}
 		}
@@ -15,7 +15,7 @@ public class Palidrome {
 		}
 	
 	public static void main(String[] args)  {
-      System.out.println(find());
+      System.out.println("findMethode ::"+find());
 		/*
        * best optimize way for Int format
 		int no=123321;

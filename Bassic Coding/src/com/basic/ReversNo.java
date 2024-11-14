@@ -13,7 +13,7 @@ public class ReversNo {
 	}
 	public static void main(StringAll[] args) {
 		int num = 123;
-	//	System.out.println(revers(num));
+		System.out.println(revers(num));
 		
 		//using for loop
 		int rev = 0,rem=0;

@@ -19,7 +19,16 @@ public class PrimeNo {
 		System.out.println(num+" "+prime); 
 
 		
+	for(int i=2;i<Math.sqrt(num);i++) {
+		if(num%i==0) {
+			prime=false;
+		}
+	}
+	System.out.println(num+" "+prime); 
+     	
+	
 	} 
+	
 	
 	
 }
