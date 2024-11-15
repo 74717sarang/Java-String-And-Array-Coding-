@@ -29,7 +29,6 @@
     <fullyQualifiedTypeName name="Daily.ArrayPairDivisiable"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="org.w3c.dom.ls.LSInput"/>
     <fullyQualifiedTypeName name="Daily.SplitStringUniqueSubString"/>
     <fullyQualifiedTypeName name="java.awt.Robot"/>
@@ -38,6 +37,8 @@
     <fullyQualifiedTypeName name="com.tree.BinaryTree"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="com.tree.Node"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="javax.imageio.spi.IIOServiceProvider"/>
+    <fullyQualifiedTypeName name="com.test1.palidromeInt"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 </qualifiedTypeNameHistroy>
