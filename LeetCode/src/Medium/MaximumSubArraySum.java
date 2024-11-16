@@ -9,7 +9,7 @@ public class MaximumSubArraySum {
 //		}
 		int sum = 0;
 	        int max=0 ;
-//		int max = Integer.MIN_VALUE;
+//		int max = Integer.MIN_VALUE; // -ve value handle
 
 		for (int i = 0; i < nums.length; i++) {
 			sum += nums[i];
