@@ -1,8 +1,6 @@
 package co.string;
 
-public class Str {
-
-	
+public class LeftShiftString {
 	
 	public static void main(String[] args) {
 		String str="doselect";
@@ -20,5 +18,7 @@ public class Str {
 		result.append(sub);
 		return result.toString();
 //		return str.substring(i,str.length())+str.substring(0,i);
+	
+	
 	}
 }
