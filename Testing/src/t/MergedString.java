@@ -1,4 +1,4 @@
-package leetcode75challenge;
+package t;
 
 public class MergedString {
 

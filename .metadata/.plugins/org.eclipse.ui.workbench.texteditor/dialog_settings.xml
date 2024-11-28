@@ -12,8 +12,8 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="obj"/>
 		<list key="findhistory">
-			<item value="package com.star;"/>
 			<item value="solution"/>
+			<item value="package com.star;"/>
 			<item value="prev"/>
 			<item value="prevNode"/>
 			<item value="package com.array;"/>
