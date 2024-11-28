@@ -1,5 +1,6 @@
 package co.string;
 
+
 public class LeftShiftString {
 	
 	public static void main(String[] args) {
@@ -18,7 +19,13 @@ public class LeftShiftString {
 		result.append(sub);
 		return result.toString();
 //		return str.substring(i,str.length())+str.substring(0,i);
-	
-	
+		
+		
+		//for last cut and put first 
+//		int len=str.length();
+//		i = i % len;
+//        String result=str.substring(len - i) + str.substring(0, len - i);
+//	    return result;  
+			  
 	}
 }
