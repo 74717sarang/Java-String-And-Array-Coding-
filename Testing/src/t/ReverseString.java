@@ -1,5 +1,7 @@
 package t;
 
+import java.util.Arrays;
+
 public class ReverseString {
 
 	
@@ -17,18 +19,13 @@ public class ReverseString {
     }
 	public static void main(String[] args) {
 
-//		Input: s = "the sky is blue"
-//		Output: "blue is sky the"
+        int[][] nestedNums = {{0, 1}, {0, 3, 12}};
+		int[] nums = { 3, 12,10, 21, 80,  };
+
+        System.out.println(Arrays.deepToString(nestedNums));
 		
-		ReverseString reverseString=new ReverseString();
-		
-		String s = "the sky is blue";
-		
-		System.out.println("Reverse::"+reverseString.reverseWords(s));
-		
-//		Input: s = "a good   example"
-//		Output: "example good a"
-//		Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.
+        System.out.println(Arrays.deepToString(new Object[] {nums}));
+
 	}
 
 }
