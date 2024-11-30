@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class MaxNoOfK_Sum {
 
+	
+	// with two pointer approch
 	private static int maxOperations(int[] nums, int k) {
 		int operation = 0;
 		int left = 0;
