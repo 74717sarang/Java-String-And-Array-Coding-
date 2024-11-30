@@ -28,6 +28,12 @@ public class MaxNoOfK_Sum {
 		}
 		return operation;
 	}
+	
+	// with using map => hashmap is more efficient
+	// int rem=K-nums[i] O(n) using map
+	
+	
+	
 
 	public static void main(String[] args) {
 
