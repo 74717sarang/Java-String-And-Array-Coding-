@@ -7,7 +7,6 @@ Memory usage is a concern.
 The array is already sorted, or sorting is acceptable.
 
 
-
 1. Finding Duplicates in an Array
 Approach 1: HashSet
 
@@ -139,6 +138,7 @@ Space: O(n)
 Use Case:
 Suitable for moderately sized arrays.
 Approach 2: Binary Search
+
 
 Steps:
 Use a list to maintain the smallest possible ending values for increasing subsequences of each length.
