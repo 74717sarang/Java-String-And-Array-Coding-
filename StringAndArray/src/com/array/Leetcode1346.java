@@ -26,6 +26,9 @@ public class Leetcode1346 {
 		 
 		 System.out.println(checkIfExist(arr)); 
 		 
+		 String str="abc";
+		 System.out.println(str.substring(0, 0));
+		 
 	}
 
 }
