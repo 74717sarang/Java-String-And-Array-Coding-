@@ -2,7 +2,7 @@ package DailyNew1;
 
 public class Leetcode2109 {
 
-	// adding space at given index
+	// adding space at given index 
 	 public static String addSpaces(String s, int[] spaces) {
 	        StringBuilder str=new StringBuilder();
 	         int j=0;
