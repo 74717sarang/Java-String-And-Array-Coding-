@@ -21,6 +21,7 @@ public class Leetcode643 {
 		        // return maxAvg;
 
 
+		 
 		      int sum=0;
 		      for(int i=0;i<k;i++){
 		        sum+=nums[i];
