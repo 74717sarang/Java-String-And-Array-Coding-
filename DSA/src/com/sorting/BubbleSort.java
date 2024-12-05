@@ -10,28 +10,27 @@ public class BubbleSort {
 			System.out.println(ar[i]);
 		}
 	}
+
 //why bubbleSort-> it take big No at Top like bubble
 	public static int[] sortbubble(int[] arr) {
-      boolean flag;  // with flag we can reduce the iteration if already sorted array
-      
-		for(int i=0;i<arr.length-1;i++) {
-    	  flag=false;
-    	 for(int j=0;j<arr.length-1;j++) {
-    	 if(arr[j]<arr[j+1]) {
-    		 int temp=arr[j];
-    		 arr[j]=arr[j+1];
-    		 arr[j+1]=temp;
-    		 flag=true;
-    	 }
-    	
-    	}
-    	 if(!flag) {
- 			break;
- 		}
-     }
-		
-		
-		
+		boolean flag; // with flag we can reduce the iteration if already sorted array
+
+		for (int i = 0; i < arr.length - 1; i++) {
+			flag = false;
+			for (int j = 0; j < arr.length - 1; j++) {
+				if (arr[j] < arr[j + 1]) {
+					int temp = arr[j];
+					arr[j] = arr[j + 1];
+					arr[j + 1] = temp;
+					flag = true;
+				}
+
+			}
+			if (!flag) {
+				break;
+			}
+		}
+
 		return arr;
 	}
 

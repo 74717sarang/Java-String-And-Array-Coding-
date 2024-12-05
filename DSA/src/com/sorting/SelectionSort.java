@@ -1,13 +1,16 @@
 package com.sorting;
 
+import java.util.Arrays;
+
 public class SelectionSort {
 	
 	public static void main(String[] args) {
 		int[] arr = {55,22,33,44,11};
 		int[] ar = sort(arr);
-		for(int i=0;i<ar.length;i++) {
-			System.out.println(ar[i]);
-		}
+//		for(int i=0;i<ar.length;i++) {
+//			System.out.println(ar[i]);
+//		}
+		System.out.println(Arrays.toString(ar));
 	}
 
 	private static int[] sort(int[] arr) {
