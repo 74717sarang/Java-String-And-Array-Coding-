@@ -4,8 +4,9 @@ public class Leetcode1456 {
 
 	public static int maxVowels(String s, int k) {
 	      
-	      // work for 100/107 testb case TLE
-	    //     int count=0;
+	        // work for 100/107 test case TLE
+	  
+		//     int count=0;
 	    //     String vowels="aeiou";
 	    //    char arr[]=s.toCharArray();
 	    //     int maxCount=0;
@@ -25,6 +26,7 @@ public class Leetcode1456 {
 	     String vowels="aeiou";
 	    
 	       for(int i=0;i<k;i++){
+	    	   // index retn -1 if not in vowels 
 	        if(vowels.indexOf(s.charAt(i))!=-1)
 	          {
 	             count++;
@@ -57,6 +59,7 @@ public class Leetcode1456 {
 		int k = 3;
 		
 		System.out.println(maxVowels(s, k));  // output=3
+//		System.out.println(s.indexOf('i'));
 	}
 
 }
