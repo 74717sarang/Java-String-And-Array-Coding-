@@ -1,4 +1,4 @@
-package leetcode75challenge;
+package leetcode75challenge.Sliding_Window;
 
 public class Leetcode643 {
 

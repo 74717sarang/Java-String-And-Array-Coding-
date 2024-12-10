@@ -1,4 +1,4 @@
-package leetcode75challenge;
+package leetcode75challenge.TwoPointer;
 
 import java.util.Arrays;
 

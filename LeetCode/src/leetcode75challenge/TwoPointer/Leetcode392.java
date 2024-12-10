@@ -1,4 +1,4 @@
-package leetcode75challenge;
+package leetcode75challenge.TwoPointer;
 
 public class Leetcode392 {
 
