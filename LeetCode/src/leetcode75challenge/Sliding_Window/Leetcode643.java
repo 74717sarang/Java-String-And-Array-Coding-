@@ -22,6 +22,9 @@ public class Leetcode643 {
 
 
 		 
+		 
+		 
+		 
 		      int sum=0;
 		      for(int i=0;i<k;i++){
 		        sum+=nums[i];

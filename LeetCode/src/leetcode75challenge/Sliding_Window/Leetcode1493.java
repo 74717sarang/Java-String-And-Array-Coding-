@@ -4,7 +4,6 @@ public class Leetcode1493 {
 
 	
     public static int longestSubarray(int[] nums) {
-        int count=0;
         int maxsize=0;
         int left=0;
         int zerocount=0;
