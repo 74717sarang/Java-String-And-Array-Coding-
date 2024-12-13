@@ -26,8 +26,10 @@ public class SlidingWindow {
 		//using slidind window comple:O(n)
 		System.out.println(maxWindowSum(arr, window));
 
+		//using slidind window comple:O(n)
+				System.out.println("from new para"+maxWindowSumPara(arr, window));
 		
-		// Normal time comple:n^2 
+				// Normal time comple:n^2 
 		int max = 0;
 		for (int i = 0; i <= arr.length - window; i++) {
 			int sum = 0;
@@ -40,6 +42,24 @@ public class SlidingWindow {
 			}
 		}
 		System.out.println("max::" + max);
+	}
+
+	private static int  maxWindowSumPara(int[] nums, int window) {
+
+		int maxSum=0;
+		int sum=0;
+		for(int i=0;i<window;i++) {
+			sum+=nums[i];
+		}
+		maxSum=sum;
+		for(int i=window;i<nums.length;i++) {
+//			sum=sum-nums[i-window]+nums[i];// both are same
+			sum+=nums[i]-nums[i-window];   // same 
+
+			maxSum=Math.max(maxSum, sum); 
+		}
+		
+		return maxSum;
 	}
 
 }
