@@ -32,13 +32,10 @@
     <fullyQualifiedTypeName name="com.tree.Node"/>
     <fullyQualifiedTypeName name="javax.imageio.spi.IIOServiceProvider"/>
     <fullyQualifiedTypeName name="com.test1.palidromeInt"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="Medium.Leetcode75"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="leetcode75challenge.ReverseString"/>
     <fullyQualifiedTypeName name="DailyNew1.Leetcode2290"/>
-    <fullyQualifiedTypeName name="com.testing.inertfaceA"/>
     <fullyQualifiedTypeName name="com.testing.inertfaceB"/>
     <fullyQualifiedTypeName name="leetcode75challenge.Leetcode238"/>
     <fullyQualifiedTypeName name="DailyNew1.Leetcode1455"/>
@@ -50,14 +47,17 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.map.HashMap"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="leetcode75challenge.Leetcode334"/>
     <fullyQualifiedTypeName name="tric.Stream"/>
     <fullyQualifiedTypeName name="tric.Stream_para"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
     <fullyQualifiedTypeName name="DailyNew1.Leetcode2981"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="Medium.Leetcode395"/>
     <fullyQualifiedTypeName name="Easy.Climbing_Stair"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="com.testing.inertfaceA"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>

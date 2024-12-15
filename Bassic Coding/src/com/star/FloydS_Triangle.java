@@ -23,7 +23,7 @@ public class FloydS_Triangle {
 			
 		}
 		
-		
+		System.out.println(); 
 		
 	}
 
