@@ -1,4 +1,4 @@
-package DailyNew1;
+package Easy;
 
 //leetcode 14
 public class LongCommonPrefix {
