@@ -34,6 +34,7 @@ public class Leetcode1207 {
 	              map.put(arr[i],map.getOrDefault(arr[i],0)+1);
 	      }
 	      Set<Integer>set=new HashSet<>(map.values());
+	      //direct add in set 
 	   return set.size()==map.size();   
 	 } 
 
