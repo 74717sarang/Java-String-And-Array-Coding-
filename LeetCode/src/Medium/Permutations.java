@@ -1,7 +1,9 @@
 package Medium;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Permutations {
 	// leetcode 46
@@ -38,5 +40,9 @@ public class Permutations {
 		for (List<Integer> permutation : result) {
 			System.out.println(permutation);
 		}
+		
+        Map<Integer,Integer>map=new HashMap<>();
+
+		
 	}
 }
