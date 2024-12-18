@@ -15,7 +15,7 @@ public class Leetcode2182 {
 
 		// Max-heap to keep characters in lexicographically largest order
 		PriorityQueue<int[]> maxHeap = new PriorityQueue<>((a, b) -> b[0] - a[0]);
-		for (int i = 25; i >= 0; i--) {
+		for(int i = 25; i >= 0; i--) {
 			if (freq[i] > 0) {
 				maxHeap.offer(new int[] { i, freq[i] });
 			}
