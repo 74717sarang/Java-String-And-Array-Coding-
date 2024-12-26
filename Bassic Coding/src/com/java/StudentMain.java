@@ -1,6 +1,8 @@
 package com.java;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
@@ -26,6 +28,24 @@ public class StudentMain {
 //			System.out.println(s.toString());
 //		}
 
+		
+		// for String use compareTo
+		// for int ise Integer.compare(a.getId,...)
+//		System.out.println("Collection Sort name(String)...");
+//         Collections.sort(list, (a,b)->a.getName().compareTo(b.getName())); 
+//		list.forEach(System.out::println); 
+		
+	
+		
+		// for String use compareTo
+				// for int ise Integer.compare(a.getId,...)
+				System.out.println("Collection Sort ID(int)...");
+		         Collections.sort(list,(a,b)->Integer.compare(a.getId(), b.getId()) ); 
+				list.forEach(System.out::println); 
+		
+		
+		
+		
 //		System.out.println("Normal Sort ID...");
 //		list.sort((a,b) ->Integer.compare(a.getId(), b.getId()));
 //		list.forEach(System.out::println); 
@@ -54,25 +74,24 @@ public class StudentMain {
 //		System.out.println(list.remove(ss));
 
 		
-		System.out.println("Update Using id...");
-		int ID=5;
-		Student newstd=new Student(15, "New", "S0050", 7300.80);
-		Optional<Student>std=list.stream()
-				.filter(i->i.getId()==ID)
-				.findFirst();
-		if(std.isPresent()) {
-			Student s=std.get();
-			s.setId(newstd.getId());
-			s.setName(newstd.getName());
-			s.setNo(newstd.getNo());
-			s.setFee(newstd.getFee());
-			System.out.println("All data change Successfuly ...");
-			list.forEach(System.out::println)
-			;
-		}
-		else {
-			System.out.println("ID Not Found...");
-		}
+//		System.out.println("Update Using id...");
+//		int ID=5;
+//		Student newstd=new Student(15, "New", "S0050", 7300.80);
+//		Optional<Student>std=list.stream()
+//				.filter(i->i.getId()==ID)
+//				.findFirst();
+//		if(std.isPresent()) {
+//			Student s=std.get();
+//			s.setId(newstd.getId());
+//			s.setName(newstd.getName());
+//			s.setNo(newstd.getNo());
+//			s.setFee(newstd.getFee());
+//			System.out.println("All data change Successfuly ...");
+//			list.forEach(System.out::println);
+//		}
+//		else {
+//			System.out.println("ID Not Found...");
+//		}
 		
 		
 	}
