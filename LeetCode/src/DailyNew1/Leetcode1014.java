@@ -13,13 +13,16 @@ public class Leetcode1014 {
 
 		return maxScore;
 	}
+	
+	
+	
 
 	public static void main(String[] args) {
 
 		int[] values = {8,1,5,2,6};
 	       //output 11	
 		System.out.println(maxScoreSightseeingPair(values));
-		
+		System.out.println();
 		
 	}
 }
