@@ -27,6 +27,10 @@ public class KLeetcode2381 {
 	        return new String(result);
 	    }
 	    
+	    
+	    
+	    
+	    
 	        public static void main(String[] args) {
 	            String s = "abc";
 	            int[][] shifts = {{0, 1, 1}, {1, 2, 0}};
