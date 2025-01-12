@@ -19,6 +19,7 @@ public class Leetcode1400 {
 
 	        return oddCount <= k; // Hint 2 and Hint 3
 	    }
+	    
 
 	    public static void main(String[] args) {
 	    	Leetcode1400 solution = new Leetcode1400();
