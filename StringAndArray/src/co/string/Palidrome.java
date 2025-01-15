@@ -4,6 +4,11 @@ public class Palidrome {
 
 	private static boolean isPalidrome(String str) {
 
+		
+		
+		
+		
+		
 		// best efficient
 		int left=0;
 		int right=str.length()-1;
@@ -47,11 +52,25 @@ public class Palidrome {
 		  }
 		return num==rev;
 	}
+	private static boolean check(String s) {
+		for(int i=0;i<s.length()/2;i++) {
+			if (s.charAt(i)!=s.charAt(s.length()-1-i)) {
+				return false; 
+				
+			}
+		}
+		
+		return true;
+	}
+
+	
 	
 	public static void main(String[] args) {
 		
-		String str="abccsba";
+		String str="abccba";
 		int num=123321;
+		System.out.println("Using check methode::"+isPalidrome(str));
+
 		System.out.println(isPalidrome(str));
 		System.out.println(methodPAlidrome(str));
 		System.out.println(functionPAlidrome(str));
