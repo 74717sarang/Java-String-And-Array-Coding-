@@ -5,13 +5,15 @@
 		<item key="DIALOG_Y_ORIGIN" value="349"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="wrap" value="true"/>
+		<item key="wrap" value="false"/>
 		<item key="casesensitive" value="false"/>
-		<item key="wholeword" value="false"/>
+		<item key="wholeword" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="list"/>
+		<item key="selection" value="no"/>
 		<list key="findhistory">
+			<item value="o"/>
+			<item value="ele"/>
 			<item value="students"/>
 			<item value="solution"/>
 			<item value="package com.star;"/>
@@ -21,6 +23,8 @@
 			<item value="package co.string;"/>
 		</list>
 		<list key="replacehistory">
+			<item value="no"/>
+			<item value="large"/>
 			<item value="list"/>
 			<item value="obj"/>
 			<item value="prevNode"/>
@@ -28,8 +32,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="762"/>
-		<item key="DIALOG_Y_ORIGIN" value="217"/>
+		<item key="DIALOG_X_ORIGIN" value="1006"/>
+		<item key="DIALOG_Y_ORIGIN" value="259"/>
 		<item key="DIALOG_WIDTH" value="414"/>
 		<item key="DIALOG_HEIGHT" value="454"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
