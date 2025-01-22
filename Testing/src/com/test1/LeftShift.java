@@ -9,6 +9,7 @@ public class LeftShift {
 		return str;
 	}
 
+	
 	private static String rightShift(String str, int right) {
 
 		String result = "";
@@ -29,6 +30,7 @@ public class LeftShift {
 		System.out.println("leftShift:  " + leftShitString(str, left));
 		System.out.println("RightLeft:  " + rightShift(str, right));
 
+		
 //		cysleling shift
 //     for(int i=1;i<=5;i++) {
 // 		System.out.println(leftShitString(str,i));
