@@ -37,12 +37,12 @@ public class Leaders_in_array {
 
 			}
 		}
-		
+
 		int[] result = new int[list.size()];
 
-		   for (int i = list.size() - 1; i >= 0; i--) {
-	          result[list.size()-i-1] =  list.get(i);
-	        }
+		for (int i = list.size() - 1; i >= 0; i--) {
+			result[list.size() - i - 1] = list.get(i);
+		}
 		return result;
 	}
 
@@ -52,7 +52,6 @@ public class Leaders_in_array {
 		System.out.println("Leaders in the array: " + Arrays.toString(findLeaders(arr)));
 		System.out.println("Leaders in the array: " + Arrays.toString(findLeadersEfficient(arr)));
 
-	
 	}
 
 }
