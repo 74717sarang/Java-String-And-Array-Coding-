@@ -25,7 +25,7 @@ public class SecondLargestEle {
 				secondlargest=largest;
 				largest=num;
 			}
-			else if(num >secondlargest && num < largest) {
+			else if(num < largest && num >secondlargest) {
 				secondlargest=num;
 			}
 		}

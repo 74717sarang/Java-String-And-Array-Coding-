@@ -10,8 +10,9 @@
 		<item key="wholeword" value="true"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="no"/>
+		<item key="selection" value="left"/>
 		<list key="findhistory">
+			<item value="n"/>
 			<item value="o"/>
 			<item value="ele"/>
 			<item value="students"/>
@@ -23,6 +24,7 @@
 			<item value="package co.string;"/>
 		</list>
 		<list key="replacehistory">
+			<item value="left"/>
 			<item value="no"/>
 			<item value="large"/>
 			<item value="list"/>
