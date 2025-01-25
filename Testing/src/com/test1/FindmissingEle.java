@@ -22,6 +22,14 @@ public class FindmissingEle {
 		int[] arr = { 1, 2, 4, 5, 6 };
 		int n = 6;
 		System.out.println("Missing Element:" + findEle(arr, n));
+	
+	 String str1="Hello";
+	 String str2=str1;
+	 
+	 str1="world";
+	 System.out.println(str1);
+	 System.out.println(str2);
+	
 	}
 
 }
