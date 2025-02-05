@@ -12,6 +12,10 @@ public class Leetcode1800 {
 	            else{
 	                sum=nums[i+1];
 	            }
+	            //direct way
+//	            sum = nums[i] < nums[i + 1] ? (sum + nums[i + 1]) : nums[i + 1];
+
+	            
 	            maxSum=Math.max(sum,maxSum);
 	        }
 	        return maxSum;
