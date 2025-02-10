@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="javax.imageio.spi.IIOServiceProvider"/>
     <fullyQualifiedTypeName name="com.test1.palidromeInt"/>
     <fullyQualifiedTypeName name="Medium.Leetcode75"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="leetcode75challenge.ReverseString"/>
     <fullyQualifiedTypeName name="DailyNew1.Leetcode2290"/>
     <fullyQualifiedTypeName name="com.testing.inertfaceB"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="DailyNew1.Leetcode1765"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>
