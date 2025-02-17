@@ -107,12 +107,13 @@ public class AllStarPattern {
 		System.out.println("-------------");
 
 		/*
-		 * 
-		 * 
-		 * * * * * * * * * * * * * * * *
-		 * 
-		 * 
-		 * 
+		  
+          * 
+        * * 
+      * * * 
+    * * * * 
+  * * * * *
+		   
 		 */
 
 		row = 5;
@@ -130,11 +131,12 @@ public class AllStarPattern {
 		System.out.println("----------");
 
 		/*
+		 
 		 *****
 		 *   *
 		 *   *
 		 *****
-		 * 
+		  
 		 */
 		for (int i = 0; i < row; i++) {
 
@@ -151,11 +153,14 @@ public class AllStarPattern {
 		}
 
 		System.out.println("-----------");
-		/*
-		 *
-		 * * * *
-		 *********
-		 * 
+		/*  
+	*
+   * *
+  *   *
+ *     *
+*********
+		  
+		  
 		 */
 		for (int i = 1; i <= row; i++) {
 			// Print leading spaces
@@ -179,10 +184,14 @@ public class AllStarPattern {
 		}
 		System.out.println("------------");
 		/*
-		 * 
-		 * 1 1 2 1 2 3 1 2 3 4 1 2 3 4 5
-		 * 
-		 * 
+		
+		     
+    1 
+   1 2 
+  1 2 3 
+ 1 2 3 4 
+1 2 3 4 5
+		
 		 */
 		row = 5;
 		for (int i = 0; i <= row; i++) {

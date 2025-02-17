@@ -29,6 +29,35 @@ public class Leetcode1079 {
 	   }
 
 	
+	   
+	   // with map and HashMap
+//	   class Solution {
+//		    public int numTilePossibilities(String tiles) {
+//		        if(tiles.length()==1) return 1;
+//		         Map<Character, Integer>map=new HashMap<>();
+//		         for(char c:tiles.toCharArray()){
+//		              map.put(c,map.getOrDefault(c,0)+1);
+//		         }
+//		         return buildcharFunction(map);          
+//		    }
+//
+//		   public int  buildcharFunction(Map<Character, Integer>map){
+//
+//
+//		         int totalCount=0;
+//		         for(char c:map.keySet()){
+//		            
+//		            if(map.get(c)>0){
+//		            totalCount++;
+//		           map.put(c,map.get(c)-1);
+//		            totalCount+=buildcharFunction(map);
+//		            map.put(c,map.get(c)+1);
+//
+//		            }
+//		         }
+//		          return totalCount;
+//		   }
+//		}
 	
 	public static void main(String[] args) {
 		
