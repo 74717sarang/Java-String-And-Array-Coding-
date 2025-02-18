@@ -105,11 +105,14 @@ public class AllStarPattern {
 //	    *********
 
 		for (int i = 0; i < no; i++) {
-			for (int j = 0; j < no - i; j++) {
+			for (int j = 0; j < no - i; j++) //j<no-1  imp steap
+			{
 				System.out.print(" ");
 			}
 
-			for (int k = 0; k < 2 * i + 1; k++) {
+			for (int k = 0; k <=2 * i + 1; k++) //k<=2*i-1 imp step
+				
+			{
 				System.out.print("*");
 			}
 			System.out.println();
@@ -156,7 +159,25 @@ public class AllStarPattern {
 
 		
 		
+		// No triangle
 		
+//	       1
+//	      123
+//	     12345
+//	    1234567
+		
+		// only print k value
+		for(int i=1;i<no;i++) {
+			for(int j=1;j<no-i;j++) 
+			{
+				System.out.print(" "); 
+			}
+			for(int k=0;k<=2*i-1;k++) {
+				System.out.print(k);
+			}
+			System.out.println();
+			
+		}
 		
 		
 		
