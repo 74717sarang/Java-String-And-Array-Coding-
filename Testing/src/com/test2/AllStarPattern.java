@@ -1,7 +1,5 @@
 package com.test2;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 public class AllStarPattern {
 
 	public static void main(String[] args) {
@@ -234,9 +232,8 @@ public class AllStarPattern {
 			System.out.println();
 		}
 
-
 		// mirrored diamond-like pattern
-		
+
 //		 *******
 //		  *****
 //		   ***
@@ -244,54 +241,55 @@ public class AllStarPattern {
 //		   ***
 //		  *****
 //		 *******
-		
-		for (int i = no; i >0; i--) {
+
+		for (int i = no; i > 0; i--) {
 			for (int j = 0; j < no - i; j++) {
 				System.out.print(" ");
 			}
-			for (int k = 0; k <2 * i - 1; k++) {
+			for (int k = 0; k < 2 * i - 1; k++) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
-		for (int i = 2; i <=no; i++) {
+		for (int i = 2; i <= no; i++) {
 			for (int j = 0; j < no - i; j++) {
 				System.out.print(" ");
 			}
-			for (int k = 0; k <2 * i - 1; k++) {
+			for (int k = 0; k < 2 * i - 1; k++) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
 		System.out.println();
 
-		
 		// hollow triangle
-		
 
 //	    *
 //	   * *
 //	  *   *
 //	 *     *
 //	*********
-		
-		
-		int j=0;
-		for(int i=1;i<=no;i++) {
-			for( j=0;j<no-i;j++) {
+
+		int j = 0;
+		for (int i = 1; i <= no; i++) {
+			for (j = 0; j < no - i; j++) {
 				System.out.print(" ");
 			}
-			for(int k=1;k<=2*i-1;k++) {
-				if (k == 1 || k == 2 * i - 1 || i==no) {
-				System.out.print("*");
-				}else {
+			for (int k = 1; k <= 2 * i - 1; k++) {
+				if (k == 1 || k == 2 * i - 1 || i == no) {
+					System.out.print("*");
+				} else {
 					System.out.print(" ");
-				} 
+				}
 			}
 			System.out.println();
 		}
-		
-		
-		
+         System.out.println();
+         
+        
+         
+         
+         
+         
 	}
 }
