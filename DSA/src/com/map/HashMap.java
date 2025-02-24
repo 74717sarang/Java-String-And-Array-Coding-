@@ -166,11 +166,14 @@ public class HashMap<K, V> {
 		map.put("India", 10);
 		map.put("US", 8);
 		map.put("Africa", 5);
+		map.put("Africa", 555); //it override the VALUE on key
 
 		
 		
 		System.out.println(map.containskey("India"));
 		System.out.println(map.get("US"));
+		System.out.println("OverRide Value: "+map.get("Africa"));   //555
+
 	}
 	
 }
