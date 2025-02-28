@@ -1,4 +1,4 @@
-package leetcode75challenge;
+package leetcode75challenge.array_string;
 
 public class Leetcode334 {
 	
